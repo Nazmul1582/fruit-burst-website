@@ -34,7 +34,7 @@
     <header>
       <nav class="container mx-auto md:my-14 my-7">
         <div
-          class="navbar bg-[#F85559] rounded-full py-3 px-4 lg:py-7 lg:px-10 justify-between flex-row-reverse md:flex-row"
+          class="navbar md:bg-[#F85559] rounded-full py-3 px-4 lg:py-7 lg:px-10 justify-between flex-row-reverse md:flex-row"
         >
           <div class="navbar-start w-auto">
             <ul class="hidden lg:flex gap-7">
@@ -57,7 +57,7 @@
               <label tabindex="0" class="btn btn-ghost btn-circle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-7 w-7 text-white"
+                  class="h-7 w-7 md:text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -72,17 +72,20 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm dropdown-content mt-0 -ml-36 text-center z-[1] p-2 shadow bg-base-100 rounded-box w-52 items-center"
               >
-                <li><a>Homepage</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>About</a></li>
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
               </ul>
             </div>
           </div>
           <div class="navbar-center gap-5">
             <img src="./images/logo.png" alt="logo" />
-            <a href="index.html" class="text-4xl text-white font-bold"
+            <a
+              href="index.html"
+              class="md:text-4xl text-2xl md:text-white font-bold"
               >Fruit Burst</a
             >
           </div>
